@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ar">
+    <meta charset="UTF-8">
+    <title>تحويل النص إلى لغة الإشارة</title>
+	<meta name="description" content="قم بترجمة الكلام النصي الى لغة الإشارة، حيث يمكنك ان تقوم بادخال  اي نص تريده باللغة العربية، وسيتم تحويله الى لغة الإشارة" />
+	<meta name="keywords" content="تحويل, لغة, الاشارة, الصم, اخرس, لا يتكلم, ترجمة, مساعدة,">
+	<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="ترجم لغة النص الى لغة الإشارة" />
+	<meta property="og:type" content="text" />
+	<meta property="og:description" content="قم بترجمة الكلام النصي الى لغة الإشارة، حيث يمكنك ان تقوم بادخال  اي نص تريده باللغة العربية، وسيتم تحويله الى لغة الإشارة" />
+	<meta name="twitter:title" content="ترجم لغة النص الى لغة الإشارة" />
+	<meta name="twitter:description" content="قم بترجمة الكلام النصي الى لغة الإشارة، حيث يمكنك ان تقوم بادخال  اي نص تريده باللغة العربية، وسيتم تحويله الى لغة الإشارة" />
+	
+<link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+
+    <style>
+	*{
+	font-family: 'Almarai', sans-serif;
+	}
+      /* تصميم المربع الذي يحتوي على النص */
+      #textInput {
+        display: block;
+        margin: 20px auto;
+        padding: 10px;
+        font-size: 18px;
+        width: 80%;
+      }
+	  #imageOutput{
+	  display: table;
+        margin: 20px auto;
+	  }
+	  #title{
+	  display: table;
+        margin: 20px auto;
+	  }
+
+      /* تصميم الصورة */
+      img {
+        width: 50px;
+        height: 50px;
+      }
+	  #akour{
+	  background-color: rgb(255 193 7); 
+	  color:#ffffff;
+	  text-decoration: none;
+	  }
+    </style>
+  </head>
+  <body dir="rtl">
+	<nav class="navbar navbar-expand-lg bg-warning " data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">المحوّل</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#aboutModal">من نحن</a>
+        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#privacyModal">سياسة الخصوصية</a>
+        <a class="nav-link " data-bs-toggle="modal" data-bs-target="#contactModal">إتصل بنا</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<main><br><br>
+<section class="text-center container" style="border-radius: 15px;box-shadow: 0 0 4px rgb(0 0 0 / 30%);background:#ffffff;">
+  <div class="row row-cols-1  gx-4 text-center" style="padding:5px;background:#eceef2;border-bottom: 1px solid #ddd; border-radius: 16px 16px 0 0;">
+  <div class="row text-center">
+      <div class="col-2 themed-grid-col"><small class="d-inline-flex mb-3 px-2 py-1 fw-semibold bg-opacity-10 border border-dark border-opacity-10 rounded-2" style="background:#ffc107;color:#ffffff;">أدخل النص</small></div>
+    </div>
+  </div>  
+  <div class="highlight">
+	<div id="title"><h1>تحويل النص الى لغة الإشارة</h1></div>
+      <input type="text" id="textInput" placeholder="إكتب النص المراد ترجمته" class="form-control">
+      <div id="imageOutput" class="highlight"></div>
+	  <br>
+    </div>
+
+ </section>
+ 
+</main> <br>
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Footer -->
+<footer class="bg-light text-center ">
+  <!-- Grid container -->
+  <div class="container p-4">
+
+
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p class="alert alert-danger">
+        هذا الموقع لا يعتبر رسمي وهو ليس تابع لأي جهة حكومية او شركة خاصة، انما تم تطويره بواسطة المبرمج الخاص به فقط. وهو متاح مجانا لكل إنسان.
+      </p>
+	  <p class="alert alert-success">
+        جميع خدمات هذا الموقع مجانية، وهي ليست بحاجة الى أي اشتراك او عملية دفع.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgb(255 193 7); color:#ffffff;">صُمم بكل ❤️ بواسطة: <a href="https://akour.me/ar" target="_blank" id="akour">محمد عكور</a></div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    <script>
+      const images = {
+        "ء": "images/ء.jpg",
+        "أ": "images/أ.jpg",
+        "ا": "images/ا.jpg",
+        "آ": "images/آ.jpg",
+        "ب": "images/ب.jpg",
+        "ت": "images/ت.jpg",
+        "ة": "images/ة.jpg",
+        "ث": "images/ث.jpg",
+        "ج": "images/ج.jpg",
+        "ح": "images/ح.jpg",
+        "خ": "images/خ.jpg",
+        "د": "images/د.jpg",
+        "ذ": "images/ذ.jpg",
+        "ر": "images/ر.jpg",
+        "ز": "images/ز.jpg",
+        "س": "images/س.jpg",
+        "ش": "images/ش.jpg",
+        "ص": "images/ص.jpg",
+        "ض": "images/ض.jpg",
+        "ط": "images/ط.jpg",
+        "ظ": "images/ظ.jpg",
+        "ع": "images/ع.jpg",
+        "غ": "images/غ.jpg",
+        "ف": "images/ف.jpg",
+        "ق": "images/ق.jpg",
+        "ك": "images/ك.jpg",
+        "ل": "images/ل.jpg",
+        "لا": "images/لا.jpg",
+        "م": "images/م.jpg",
+        "ن": "images/ن.jpg",
+        "ه": "images/ه.jpg",
+        "و": "images/و.jpg",
+        "ؤ": "images/ؤ.jpg",
+        "ي": "images/ي.jpg",
+        "ئ": "images/ئ.jpg",
+        "ى": "images/ى.jpg"
+      };
+
+      const textInput = document.getElementById("textInput");
+      const imageOutput = document.getElementById("imageOutput");
+
+      // تحويل النص إلى صور
+      function convertTextToImages() {
+        const text = textInput.value;
+        let output = "";
+
+        for (let i = 0; i < text.length; i++) {
+          const char = text.charAt(i);
+          if (char in images) {
+            output += '<img src="' + images[char] + '">';
+          } else {
+            output += char;
+          }
+        }
+
+        imageOutput.innerHTML = output;
+      }
+
+      textInput.addEventListener("input", convertTextToImages);
+    </script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+  
+  
+  <!-- Modal -->
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">من نحن</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+	<p>نحن إحدى الشباب العربي المتطوع للأعمال الخيرية، قمنا بتطوير هذا الموقع لأنه يلبي احتياجات الكثير والكثير من الناس</p>
+	<p>فقد تعرضنا يوما للتعامل مع أشخاص لا يستطيعون الكلام وكانت الطريقة الوحيدة للتواصل هي لغة الإشارة.</p>
+	<p>فجاءت فكرة هذا المشروع وهو لتحويل النص المكتوب الى لغة الاشارة بحيث لو تعرضت في يومٍ ما للتحدث مع شخص لا يجيد النطق</p>
+	<p>فهذا هو أنسب مشروع ليكون دليلك على فهم وتفهيم الشخص الآخر.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">سياسة الخصوصية</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+		<ul>
+	<li><strong>خصوصية زوارنا لها أهمية بالغة بالنسبة لنا:</strong> نستخدم الكوكيز (ملفات الارتباط أو الكعكات)، مثل كثير من المواقع على شبكة الإنترنت، كما أن وكالات الإعلان لدينا تطلب تنزيل كوكيز في جهاز المستخدم وفي كلتا الحالتين الاستخدام آمن تماماً.</li>
+	<li>لا تستطيع الوصول إلى أو السيطرة على هذه الكعكات أو الكوكيز التي يستخدمها طرف ثالث.</li>
+	<li>إذا كنت ترغب في تعطيل الكوكيز ، يمكنك فعل ذلك من خلال خيارات المتصفح الخاص بك.</li>
+	<li>إعلانات جوجل تستخدم نظام كعكات DART الذي يعرف اهتماماتك عبر الويب ويهتم بالمواقع التي تزورها ولكن لا يتم استقبال أي من بياناتك الشخصية.</li>
+	<li>تشرح جوجل بشكل مفصل سياسة الخصوصية حول الإعلانات ووفق أحدث شروط GDPR من هنا:<br>
+	&nbsp;<a href="https://www.google.com/policies/technologies/partner-sites/" target="_blank">google.com/policies/technologies/partner-sites</a></li>
+	<li>يتم استخدام تلك المعلومات في عرض الإعلانات على صفحات إعلانات جوجل بناء على تصفحك للمواقع لظهور الإعلانات بشكل أقرب إليك، بشكل شخصي.</li>
+	<li><strong>لا يقوم موقع شاشة المشاغب بنفسه بإعادة بيع اهتماماتك أو بيانات الشخصية لأي جهة.</strong></li>
+	<li>يتم إنشاء البيانات الشخصية من العمليات الفنية مثل نماذج الاتصال والتعليقات وملفات تعريف الارتباط والتحليلات وتضمينات الأطراف الثالثة.</li>
+	<li>عندما يترك الزائرون تعليقاتهم على موقع شاشة المشاغب، نجمع البيانات الموضحة في نموذج التعليقات، وكذلك عنوان IP الخاص بالزائر وسلسلة وكلاء متصفح المستخدم للمساعدة في اكتشاف الرسائل غير المرغوب فيها. قد يتم توفير سلسلة مجهولة المصدر تم إنشاؤها من عنوان بريدك الإلكتروني (وتسمى أيضًا hash) إلى خدمة Gravatar لمعرفة ما إذا كنت تستخدمها، سياسة خصوصية خدمة Gravatar متوفرة هنا: <a href="https://automattic.com/privacy/" target="_blank">https://automattic.com/privacy</a>. بعد الموافقة على تعليقك، ستكون صورة ملفك الشخصي مرئية للعامة في سياق تعليقك.</li>
+	<li><strong>&nbsp;</strong>إذا قمت بتحميل الصور إلى موقع الويب، يجب تجنب تحميل الصور مع بيانات الموقع المضمنة (EXIF GPS). يمكن لزوّار الموقع تنزيل واستخراج أي بيانات موقع من الصور على موقع الويب.</li>
+	<li><strong>&nbsp;</strong>إذا تركت تعليقًا على موقعنا، فيمكنك تمكين حفظ اسمك وعنوان بريدك الإلكتروني وموقعك الإلكتروني في ملفات تعريف الارتباط. هذه هي لراحتك حتى لا تضطر إلى ملء التفاصيل الخاصة بك مرة أخرى عند ترك تعليق آخر. ستستمر ملفات تعريف الارتباط هذه لمدة عام واحد.</li>
+	<li>إذا كان لديك حساب وقمت بتسجيل دخولك لهذا الموقع، فسنهيئ ملف تعريف ارتباط مؤقت لتحديد ما إذا كان مستعرضك يقبل هذه الملفات. لايحوي ملف تعريف الارتباط هذا أي بيانات شخصية كما يجرى التخلص منه عندما تقوم بإغلاق المتصفح الخاص بك.</li>
+	<li>عندما تسجّل الدخول نقوم أيضاً بتهيئة ملفات عديدة لتعريف الارتباط من أجل حفظ معلومات دخولك وخيارات شاشة العرض الخاصة بك. ملفات تعريف الارتباط لمعلومات الدخول تبقى ليومين، بينما تبقى ملفات تعريف ارتباط خيارات شاشة العرض لمدة سنة. سيستمر تسجيل دخولك طيلة أسبوعين عندما تختار “تذكرني”، وإذا قمت بتسجيل خروجك من الحساب، سيتم حذف ملفات تعريف ارتباط تسجيل الدخول.</li>
+	<li>سيُحفظ ملف إضافي لتعريف الارتباط في مستعرضك إذا قمت بتحرير أو نشر مقال. وهذا الملف لا يتضمن أي بيانات شخصية فكل ما في الأمر أنه يشير إلى معرّف المقالة التي حررتها. وستنتهي صلاحيته بعد يوم واحد.</li>
+	<li>يمكن التحقق من تعليقات الزوار من خلال خدمة الكشف عن الرسائل غير المرغوب فيها تلقائيًا.</li>
+	<li>لتغير إعدادات الخصوصية يمكن التوجه&nbsp;<a href="https://www.google.com/policies/technologies/ads/" target="_blank">هنـــا</a>.</li>
+	<li>لأي استفسار <span data-bs-toggle="modal" data-bs-target="#contactModal">اتصل بنا</span>.</li>
+</ul>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">سياسة الخصوصية</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+		
+		<p>للإتصال بنا، يمكنكم التواصل معنا عبر مواقع التواصل الاجتماعي</p>
+		<div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="https://facebook.com/AkourPro" role="button" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #14171A;" href="https://x.com/AkourPro" role="button" target="_blank"><i class="fab fa-twitter"></i></a>
+
+              <!-- Google -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button" target="_blank"><i class="fab fa-google"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn text-white btn-floating m-1" style="background-color: rgb(172, 43, 172);" href="https://instagram.com/AkourPro" role="button" target="_blank"><i class="fab fa-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="https://linkedin.com/in/AkourPro" role="button" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <!-- Github -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/AkourPro" role="button" target="_blank"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  </body>
+</html>
